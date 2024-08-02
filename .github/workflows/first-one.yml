@@ -1,0 +1,10 @@
+name: My first one
+on: workflow-dispatch
+jobs:
+  Premier job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ecrire 1
+        run: echo "1"
+      - name: Ecrire 2
+        run: echo "2"
